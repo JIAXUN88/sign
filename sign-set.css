@@ -1,0 +1,242 @@
+/* <!-- 第一欄 --> */
+header{
+    background-color: #4C3D27;
+}
+.header_row{
+    display: flex;
+    padding: 6px 40px;
+}
+.header_row nav{
+    text-align: right;
+    width: 100%;
+}
+nav a{
+    display: inline-block;
+    padding: 0 10px;
+    color: #FCEBE3;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height:100px;
+    letter-spacing: 3px;
+    font-family: Noto Sans TC;
+}
+nav a:hover{
+    color: #F8C747;
+}
+.header_icon{
+    display: inline-block;
+}
+.fa-magnifying-glass{
+    margin-left: 20px;
+}
+.fa-user{
+    margin-left: 20px;
+}
+
+
+
+/* <!-- 第二欄 --> */
+.login_section{
+    position: relative;
+}
+.login_row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+.login_left, .login_right{
+    flex: 1;
+}
+.login_left{
+    background-color: #FFEFC6;
+}
+.login_left_con{
+    padding: 0 100px;
+    margin: 200px 0 0 0;
+    /* outline: 2px solid red; */
+}
+.login_right{
+    position: relative;
+    width: 100px;
+}
+.login_right img{
+    width: 100%;
+}
+.login_title{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    /* outline: 2px solid rgb(50, 196, 42); */
+}
+.login_title_cht, .login_title_eng{
+    margin: 0 16px;
+}
+.login_title_cht{
+    margin-left: 30px;
+}
+.login_title_cht p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #363636;
+    font-family: Noto Sans TC;
+    /* outline: 2px solid rgb(249, 152, 40); */
+}
+.login_title_eng{
+    margin-top: 10px;
+    /* outline: 2px solid rgb(91, 8, 66); */
+}
+.login_title_eng span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #363636;
+    font-family: lobster;
+    letter-spacing: 2px;
+    
+}
+.login_con_name, .login_con_password, .login_con_mail{
+    margin: 20px 0;
+}
+#nameinput, #passwordinput, #mailinput{
+    width: 400px;
+    height: 20px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #363636;
+    background-color: #FFEFC6;
+}
+.login_con_name p, .login_con_password p, .login_con_mail p{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Noto Sans TC;
+}
+.login_title_btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+#login_button_login{
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Noto Sans TC;
+    border: none;
+    background-color: #4C3D27;
+    color: #FCEBE3;
+}
+.login_left_other{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* outline: 2px solid rgb(34, 14, 143); */
+}
+.login_left_other_title{
+    padding: 0 0 20px 0 ;
+    margin: 0 100px;
+    text-align: center;
+    border-bottom:2px solid #4C3D27;
+}
+.login_left_other_title p{
+    font-size: 20px;
+    font-weight:500;
+    font-family: Noto Sans TC;
+}
+.login_left_other_community{
+    margin-top: 30px;
+}
+.login_left_other_google_txt, .login_left_other_fb_txt, .login_left_other_line_txt{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Noto Sans TC;
+}
+
+.login_left_other_google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_left_other_google_icon{
+    width: 28px;
+}
+.login_left_other_google_icon img{
+    width: 100%;
+}
+.login_left_other_google_txt{
+    padding: 10px 40px;
+    margin: 10px;
+    background-color: #F6F6F6;
+}
+.login_left_other_fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid rgb(10, 186, 45); */
+}
+.login_left_other_fb_icon{
+    width: 28px;
+}
+.login_left_other_fb_icon img{
+    width: 100%;
+}
+.login_left_other_fb_txt{
+    padding: 10px 34px;
+    margin: 10px;
+    background-color: #8EBEFB;
+}
+
+.login_left_other_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid rgb(10, 186, 45); */
+}
+.login_left_other_line_icon{
+    width: 28px;
+}
+.login_left_other_line_icon img{
+    width: 100%;
+}
+.login_left_other_line_txt{
+    padding: 10px 50px;
+    margin: 10px;
+    background-color: #98F673;
+}
+
+.login_right_txt{
+    position: absolute;
+    top: 240px;
+    right: 0;
+    padding: 0 60px;
+    /* outline: 2px solid rgb(132, 0, 255);  */
+}
+.login_right_txt_title p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Noto Sans TC;
+    margin: 40px;
+}
+.login_right_txt_con_paragraph{
+    margin: 40px 0;
+    /* outline: 2px solid rgb(132, 0, 255);  */
+}
+.login_right_txt_con p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: Noto Sans TC;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.login_slash{
+    width: 3px;
+    height: 50px;
+    background-color: #363636;
+    transform:rotate(20deg);
+    position: absolute;
+    top: 210px;
+    left: 330px;
+}
